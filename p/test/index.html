@@ -245,15 +245,22 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#header-2">Header 2</a>
+    <li><a href="#标题">标题</a>
       <ol>
-        <li><a href="#header-3">Header 3</a>
+        <li><a href="#这是三级标题">这是三级标题</a>
           <ol>
-            <li><a href="#header-4">Header 4</a></li>
+            <li><a href="#这是四级标题">这是四级标题</a></li>
           </ol>
         </li>
       </ol>
     </li>
+    <li><a href="#文本">文本</a></li>
+    <li><a href="#引用">引用</a></li>
+    <li><a href="#列表">列表</a></li>
+    <li><a href="#代码">代码</a></li>
+    <li><a href="#latex样式">$\LaTeX$样式</a></li>
+    <li><a href="#图片">图片</a></li>
+    <li><a href="#表格">表格</a></li>
   </ol>
 </nav>
         </div>
@@ -322,7 +329,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -337,53 +344,142 @@
     <section class="article-content">
     
     
-    <h1 id="header-1">Header 1
-</h1><h2 id="header-2">Header 2
-</h2><h3 id="header-3">Header 3
-</h3><h4 id="header-4">Header 4
-</h4><h5 id="header-5">Header 5
-</h5><h6 id="header-6">Header 6
-</h6><p>Text test.</p>
-<p><em>Italic</em> <strong>Strong</strong> <em><strong>Strong Italic</strong></em> <code>Code</code> <a class="link" href="https://degreeqi.github.io"  target="_blank" rel="noopener"
-    >Hyperlink</a> H<sub>2</sub>O X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup> <kbd>CTRL</kbd> ==highlight==</p>
+    <p>[toc]</p>
+<h1 id="markdown-示例文档">Markdown 示例文档
+</h1><h2 id="标题">标题
+</h2><h3 id="这是三级标题">这是三级标题
+</h3><h4 id="这是四级标题">这是四级标题
+</h4><h5 id="这是五级标题">这是五级标题
+</h5><h6 id="这是六级标题">这是六级标题
+</h6><h2 id="文本">文本
+</h2><p>这是一般样式，
+<em>这是斜体样式，</em>
+<strong>这是加粗样式，</strong>
+<em><strong>这是斜体加粗样式，</strong></em>
+<a class="link" href="degreeqi.github.io" >这是超链接样式，</a>
+<code>这是简单代码样式，</code>
+==这是高亮样式，==
+<del>这是删除线样式，</del>
+这是<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>样式，
+<u>这是下划线样式，</u>
+这是<kbd>键盘</kbd>样式，
+这是^上标^<del>下标</del>样式，</p>
+<h2 id="引用">引用
+</h2><blockquote>
+<p>这是引用文本框，</p>
 <blockquote>
-<p>Reference</p>
+<p>这是嵌套的引用文本框，</p>
+</blockquote>
+<p>以下是Github警告框：</p>
+</blockquote>
 <blockquote>
-<p>— John Doe<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>[!NOTE]
+这是一条笔记信息，</p>
 </blockquote>
+<blockquote>
+<p>[!TIP]
+这是一条提示信息，</p>
 </blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+这是一条关键信息，</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+这是一条紧急信息，</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+这是一条建议信息。</p>
+</blockquote>
+<h2 id="列表">列表
+</h2><p>这些是列表样式：</p>
 <ol>
-<li>Sorted list</li>
-<li>Sorted list</li>
+<li>有序列表元素</li>
+<li>有序列表元素</li>
+<li>有序列表元素
+<ol>
+<li>有序列表元素（第二层）
+<ol>
+<li>有序列表元素（第三层）</li>
+</ol>
+</li>
+</ol>
+</li>
 </ol>
 <ul>
 <li>
-<p>List</p>
+<p>无序列表元素</p>
+</li>
+<li>
+<p>无序列表元素</p>
+</li>
+<li>
+<p>无序列表元素</p>
 <ul>
-<li>List
+<li>无序列表元素（第二层）
 <ul>
-<li>List</li>
+<li>无序列表元素（第三层）</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<p>List</p>
+<p><input checked="" disabled="" type="checkbox"> 完成</p>
 </li>
 <li>
-<p><input disabled="" type="checkbox"> Task</p>
-</li>
-<li>
-<p><input checked="" disabled="" type="checkbox"> Task</p>
+<p><input disabled="" type="checkbox"> 待做</p>
 </li>
 </ul>
-<p><img src="/p/test/Test.png"
+<h2 id="代码">代码
+</h2><p>这是平方根快速算法的代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="line"><span class="cl"><span class="kt">float</span> <span class="nf">Q_rsqrt</span><span class="p">(</span> <span class="kt">float</span> <span class="n">number</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">long</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">float</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">const</span> <span class="kt">float</span> <span class="n">threehalfs</span> <span class="o">=</span> <span class="mf">1.5F</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">x2</span> <span class="o">=</span> <span class="n">number</span> <span class="o">*</span> <span class="mf">0.5F</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">y</span>  <span class="o">=</span> <span class="n">number</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">i</span>  <span class="o">=</span> <span class="o">*</span> <span class="p">(</span> <span class="kt">long</span> <span class="o">*</span> <span class="p">)</span> <span class="o">&amp;</span><span class="n">y</span><span class="p">;</span>               <span class="c1">// evil floating point bit level hacking
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">i</span>  <span class="o">=</span> <span class="mh">0x5f3759df</span> <span class="o">-</span> <span class="p">(</span> <span class="n">i</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span> <span class="p">);</span>       <span class="c1">// what the fuck?
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">y</span>  <span class="o">=</span> <span class="o">*</span> <span class="p">(</span> <span class="kt">float</span> <span class="o">*</span> <span class="p">)</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">y</span>  <span class="o">=</span> <span class="n">y</span> <span class="o">*</span> <span class="p">(</span> <span class="n">threehalfs</span> <span class="o">-</span> <span class="p">(</span> <span class="n">x2</span> <span class="o">*</span> <span class="n">y</span> <span class="o">*</span> <span class="n">y</span> <span class="p">)</span> <span class="p">);</span>     <span class="c1">// 1st iteration
+</span></span></span><span class="line"><span class="cl"><span class="c1">//    y  = y * ( threehalfs - ( x2 * y * y ) );   // 2nd iteration, this can be removed
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="latex样式">$\LaTeX$样式
+</h2>$$
+e^{i\pi}+1=0
+$$<h2 id="图片">图片
+</h2><p><img src="/p/test/Test.png"
 	width="600"
 	height="600"
 	srcset="/p/test/Test_hu1604839352227717537.png 480w, /p/test/Test_hu38648843534263095.png 1024w"
 	loading="lazy"
-	
-		alt="Test"
 	
 	
 		class="gallery-image" 
@@ -391,62 +487,39 @@
 		data-flex-basis="240px"
 	
 ></p>
-<hr>
-$$
-e^{i\pi}+1=0
-$$<div class="table-wrapper"><table>
+<h2 id="表格">表格
+</h2><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th style="text-align: left">左对齐</th>
+          <th style="text-align: center">居中对齐</th>
+          <th style="text-align: right">右对齐</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td style="text-align: left">一般样式</td>
+          <td style="text-align: center"><em>斜体样式</em></td>
+          <td style="text-align: right"><strong>加粗样式</strong></td>
       </tr>
       <tr>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td style="text-align: left"><code>代码样式</code></td>
+          <td style="text-align: center"><a class="link" href="degreeqi.github.io" >链接样式</a></td>
+          <td style="text-align: right">==高亮样式==</td>
       </tr>
       <tr>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td style="text-align: left"><del>删除样式</del></td>
+          <td style="text-align: center"></td>
+          <td style="text-align: right">&hellip;</td>
       </tr>
   </tbody>
 </table></div>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;hello, world&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>[TOC]</p>
-<p>[]:</p>
+<hr>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Attribution&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>这是脚注描述样式，&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
