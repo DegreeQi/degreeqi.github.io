@@ -7,7 +7,231 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Singo/DegreeQi</copyright>
-        <lastBuildDate>Mon, 30 Dec 2024 23:55:16 +0800</lastBuildDate><atom:link href="https://degreeqi.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Jan 2025 10:44:19 +0800</lastBuildDate><atom:link href="https://degreeqi.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Oneness，一个简单的Typora主题</title>
+        <link>https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/</link>
+        <pubDate>Thu, 02 Jan 2025 10:44:19 +0800</pubDate>
+        
+        <guid>https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/</guid>
+        <description>&lt;p&gt;Oneness是一个简洁的Typora主题。&lt;/p&gt;
+&lt;h2 id=&#34;oneness主题&#34;&gt;Oneness主题
+&lt;/h2&gt;&lt;p&gt;目前该项目实现了日、夜两个主题，色彩偏好为蓝色，可通过修改&lt;code&gt;./oneness-[theme neme].css&lt;/code&gt;中的变量来快速自定义一些简单参数。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Oneness-Light&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Oneness-Night&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/preview-light.png&#34;
+	width=&#34;1366&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/preview-light_hu6395814769388545506.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/preview-light_hu1886471283525111020.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/preview-night.png&#34;
+	width=&#34;1366&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/preview-night_hu12327183092647169261.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/preview-night_hu3086397341485363477.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!important]&lt;/p&gt;
+&lt;p&gt;该主题目前只在Windows平台上进行了测试，测试Typora版本为&lt;code&gt;1.9.5&lt;/code&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;markdown编辑区域&#34;&gt;Markdown编辑区域
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Oneness-Light&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Oneness-Night&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example1-light.png&#34;
+	width=&#34;767&#34;
+	height=&#34;1305&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example1-light_hu15622304057086556413.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example1-light_hu1956457596952239673.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;141px&#34;
+	
+&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example1-night.png&#34;
+	width=&#34;756&#34;
+	height=&#34;1309&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example1-night_hu436554122809154316.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example1-night_hu13066827387154817311.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;57&#34;
+		data-flex-basis=&#34;138px&#34;
+	
+&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example2-light.png&#34;
+	width=&#34;767&#34;
+	height=&#34;1307&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example2-light_hu13499933855482986406.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example2-light_hu12920444169622301504.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;140px&#34;
+	
+&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example2-night.png&#34;
+	width=&#34;767&#34;
+	height=&#34;1310&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example2-night_hu5158621989755104601.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example2-night_hu16085016110321550519.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;140px&#34;
+	
+&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example3-light.png&#34;
+	width=&#34;766&#34;
+	height=&#34;1138&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example3-light_hu8773938508405112853.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example3-light_hu17106334611085722943.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;67&#34;
+		data-flex-basis=&#34;161px&#34;
+	
+&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example3-night.png&#34;
+	width=&#34;768&#34;
+	height=&#34;1139&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example3-night_hu12524372024604611648.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example3-night_hu3784453336266342356.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;67&#34;
+		data-flex-basis=&#34;161px&#34;
+	
+&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;typora软件界面&#34;&gt;Typora软件界面
+&lt;/h2&gt;&lt;h3 id=&#34;侧边栏&#34;&gt;侧边栏
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;文件树&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;文件列表&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;大纲&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-filetree.png&#34;
+	width=&#34;322&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-filetree_hu11416506179304779191.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-filetree_hu3784408209178120546.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;41&#34;
+		data-flex-basis=&#34;100px&#34;
+	
+&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-filelist.png&#34;
+	width=&#34;322&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-filelist_hu9729897702027168624.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-filelist_hu10529308282937734784.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;41&#34;
+		data-flex-basis=&#34;100px&#34;
+	
+&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-outline.png&#34;
+	width=&#34;324&#34;
+	height=&#34;767&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-outline_hu5773778182639318279.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-outline_hu6019487481434933345.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;42&#34;
+		data-flex-basis=&#34;101px&#34;
+	
+&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;一体化菜单&#34;&gt;一体化菜单
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;一体化菜单&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-megamenu.png&#34;
+	width=&#34;1366&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-megamenu_hu1103620846915895034.png 480w, https://degreeqi.github.io/p/oneness%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84typora%E4%B8%BB%E9%A2%98/example-megamenu_hu17341651446061271328.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;鸣谢&#34;&gt;鸣谢
+&lt;/h2&gt;&lt;p&gt;本项目使用了以下开源项目的成果：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/cayxc/Mdmdt&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mdmdt&lt;/a&gt; by &lt;a class=&#34;link&#34; href=&#34;https://github.com/cayxc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;cayxc&lt;/a&gt; (Apache-2.0)
+使用了其大纲部分的代码，并参考这一部分完成了文件树的数枝效果。
+使用了其代码高亮&lt;code&gt;CodeMirror&lt;/code&gt;部分的代码。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>[算法]有环链表</title>
         <link>https://degreeqi.github.io/p/%E7%AE%97%E6%B3%95%E6%9C%89%E7%8E%AF%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Mon, 30 Dec 2024 23:55:16 +0800</pubDate>
